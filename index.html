@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelina Anup | Aspiring Computer Engineer</title>
+    <meta name="description" content="Portfolio of Angelina Anup, a 10th-grade student aspiring to become a computer engineer.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AA.</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Angelina Anup</h1>
+                <h2 class="tagline">Aspiring Computer Engineer | Student | Future Innovator</h2>
+                <p class="intro">
+                    A 10th grade student from Kalamassery studying at Rajagiri Higher Secondary School, passionate about technology and aiming to become a computer engineer.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#about" class="btn btn-outline">My Dream</a>
+                </div>
+            </div>
+            <div class="hero-image reveal fade-right">
+                <div class="image-wrapper">
+                    <img src="assets/profile.jpg" alt="Angelina Anup Portrait">
+                </div>
+            </div>
+        </div>
+        <!-- Abstract shapes for background -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal fade-up">
+                <div class="about-text card">
+                    <p>
+                        Hi! I'm Angelina, a 15-year-old student currently residing in Kalamassery. I'm in the 10th grade at Rajagiri Higher Secondary School.
+                    </p>
+                    <p>
+                        Ever since I was young, I've been fascinated by how things work behind the screen. My dream is to become a computer engineer and contribute to the ever-evolving world of technology. I'm eager to learn, build, and explore everything the digital realm has to offer.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i data-lucide="map-pin" class="icon"></i>
+                            <span>Kalamassery</span>
+                        </div>
+                        <div class="highlight">
+                            <i data-lucide="calendar" class="icon"></i>
+                            <span>Age 15</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section class="timeline section bg-light" id="education">
+        <div class="container">
+            <div class="timeline-grid">
+                <!-- Education -->
+                <div class="timeline-column reveal fade-up">
+                    <h2 class="section-title">Education</h2>
+                    <div class="timeline-item card">
+                        <div class="timeline-icon">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Rajagiri Higher Secondary School</h3>
+                            <span class="timeline-date">Current</span>
+                            <p class="timeline-location">Kalamassery</p>
+                            <p>Currently in 10th grade. My school life has been a wonderful journey of learning, discovery, and personal growth, preparing me for my future aspirations in technology.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience -->
+                <div class="timeline-column reveal fade-up" id="experience" style="transition-delay: 0.2s;">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="timeline-item card">
+                        <div class="timeline-icon">
+                            <i data-lucide="briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Summer Camp: WebForge</h3>
+                            <span class="timeline-date">Rajagiri School of Engineering and Technology</span>
+                            <p class="timeline-location">Kakkanad</p>
+                            <p>Attended the WebForge summer camp, where I gained my first real exposure to web design and basic tech skills. It was a hands-on experience that solidified my interest in building for the web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Languages Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">Skills & Languages</h2>
+            <div class="skills-grid">
+                
+                <!-- Technical & Soft Skills -->
+                <div class="skills-column reveal fade-up">
+                    <div class="card">
+                        <h3>My Skills</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i data-lucide="layout" class="icon-small"></i> Web Design</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i data-lucide="waves" class="icon-small"></i> Swimming</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i data-lucide="users" class="icon-small"></i> Leadership</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i data-lucide="keyboard" class="icon-small"></i> Keyboard Skills</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="skills-column reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="card">
+                        <h3>Languages</h3>
+                        <div class="language-list">
+                            <div class="language-item">
+                                <div class="lang-icon">E</div>
+                                <div class="lang-details">
+                                    <h4>English</h4>
+                                    <p>Fluent</p>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <div class="lang-icon">M</div>
+                                <div class="lang-details">
+                                    <h4>Malayalam</h4>
+                                    <p>Native</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section bg-light" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info reveal fade-up">
+                    <div class="contact-card card">
+                        <div class="contact-item">
+                            <div class="icon-wrapper"><i data-lucide="phone"></i></div>
+                            <div class="details">
+                                <h4>Phone</h4>
+                                <p>7907983879</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-wrapper"><i data-lucide="mail"></i></div>
+                            <div class="details">
+                                <h4>Email</h4>
+                                <p>angelinaanup2011@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-wrapper"><i data-lucide="map-pin"></i></div>
+                            <div class="details">
+                                <h4>Location</h4>
+                                <p>TOG Pass Road, Kalamassery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form reveal fade-up" style="transition-delay: 0.2s;">
+                    <form class="card" onsubmit="event.preventDefault(); alert('Thank you for your message!');">
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Angelina Anup. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
